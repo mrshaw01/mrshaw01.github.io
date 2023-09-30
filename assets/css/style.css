@@ -18,7 +18,10 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #010e1b;
+  background-image: url('../img/background/bg.jpeg'); /* Change the path accordingly */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;      
   background-size: cover;
   left: 0;
   right: 0;
